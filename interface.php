@@ -105,6 +105,5 @@ interface_log(INFO, EC_OK, "***** interface request end *****");
 interface_log(INFO, EC_OK, "*********************************");
 interface_log(INFO, EC_OK, "");
 $useTime = microtime(true) - $startTime;
-interface_log ( INFO, EC_OK, "cost time:" . $useTime . " " . ($useTime > 4 ? "warning" : "") );
-System.out.println("");
+interface_log ( INFO, EC_OK, "cost time:" . $useTime . " " . ($useTime > 4 ? "warning" : "")
 ?>
